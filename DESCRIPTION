@@ -1,0 +1,20 @@
+Package: rscript
+Title: Create and Comment in Script R
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Bruno",
+           family = "Faria",
+           role = c("aut", "cre"),
+           email = "brunofariadf@gmail.com",
+           comment = c(ORCID = "0000-0002-1612-3991"))
+Description: The creation of the R script inserts the information from the code development environment such as code editor, platform, author name, among others. Comments can be called interactively with output on the clipboard or in console.
+Depends:
+    R (>= 4.1.0)
+Imports: 
+    clipr,
+    tools
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
